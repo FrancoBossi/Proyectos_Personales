@@ -1,0 +1,58 @@
+/* Contenedor flexible para las tarjetas */
+.container {
+    display: flex;
+    justify-content: space-around;
+    /* Espacio entre tarjetas */
+    gap: 20px;
+    /* Espacio entre tarjetas */
+    flex-wrap: wrap;
+    /* Permite que bajen si no caben */
+    padding: 20px;
+}
+
+/* Estilo de las tarjetas */
+.card {
+    width: 28rem;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    padding: 15px;
+    text-align: center;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.1);
+    background-color: ghostwhite;
+}
+
+/* Estilo de las imágenes */
+.card-img-top {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+/* Estilo del botón */
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    margin-top: 10px;
+    text-decoration: none;
+    background-color: blue;
+    color: white;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.btn:hover {
+    background-color: darkblue;
+}
+
+body {
+    
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+h1{
+    text-align: center;
+    margin-top: 20px;
+    background-color: #ccc;
+}

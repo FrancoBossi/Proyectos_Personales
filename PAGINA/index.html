@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Game Web</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="funciones.js" defer></script>
+</head>
+
+<body>
+    <h1>Mejores juegos Online</h1>
+    <button id="miBoton">Haz clic</button>
+    <div class="container">
+        <div class="card">
+            <div class="card-body">
+                <img src="imagenes/lol.jpg" class="card-img-top">
+                <h3 class="card-title">League Of Legends</h3>
+                <p class="card-text">Juego multijugador de 5vs5 donde el objetivo es destruir el nexo rival.</p>
+                <a href="https://www.leagueoflegends.com/es-es/" class="btn" target="_blank">¡Juega ya!</a>
+            </div>
+        </div>
+
+        <div class="card">
+            <div class="card-body">
+                <img src="imagenes/cs2.jpg" class="card-img-top">
+                <h3 class="card-title">Counter Strike 2</h3>
+                <p class="card-text">Juego multijugador de 5vs5 donde el objetivo es ganar más rondas que el rival.</p>
+                <p>Puedes jugar como Terrorista o AntiTerrorista.</p>
+                <a href="https://www.counter-strike.net/cs2?l=spanish" class="btn" target="_blank">¡Juega ya!</a>
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="card">
+            <img src="imagenes/minecraft.jpg" class="card-img-top">
+            <h3 class="card-title">Minecraft</h3>
+            <p class="card-text">Videojuego de construcción estilo mundo abierto. Tambien cuenta con modos de juego Online. </p>
+            <a href="https://www.minecraft.net/es-es" class="btn" target="_blank">¡Juega ya!</a>
+        </div>
+
+        <div class="card">
+            <img src="imagenes/fortnite.jpg" class="card-img-top">
+            <h3 class="card-title">Fortnite</h3>
+            <p class="card-text">Fortnite Battle Royale es un videojuego multiplataforma gratuito perteneciente al género battle royale desarrollado y
+            publicado por Epic Games. </p>
+            <a href="https://store.epicgames.com/es-ES/p/fortnite" class="btn" target="_blank">¡Juega ya!</a>
+        </div>
+    </div>
+
+    <div class="card">
+        <select class="form-select" aria-label="Default select example">
+            <option selected>Todos los géneros</option>
+            <option value="1" id="Shooter">Shooter</option>
+            <option value="2">Deportes</option>
+            <option value="3">RPG</option>
+        </select>
+    </div>
+
+    
+</body>
+
+</html>
